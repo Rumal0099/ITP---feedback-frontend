@@ -20,7 +20,7 @@ export default class Sidebar extends Component {
            
             <li class="active">
                 
-            <button id="btn"><a href='/' style={{textDecoration:'none',color:'black',fontWeight:'bold'}}><i class="fa-solid fa-house-user"></i> &nbsp;Home</a></button> 
+            <button id="btn"><a href='#' style={{textDecoration:'none',color:'black',fontWeight:'bold'}}><i class="fa-solid fa-house-user"></i> &nbsp;Home</a></button> 
                 
             </li>
             
@@ -31,7 +31,7 @@ export default class Sidebar extends Component {
             <h3 style={{fontWeight:'bold',textAlign:'left',color:'white'}}>Pages</h3>
             &nbsp;
             <li>
-            <button id="btn"><a href='#' style={{textDecoration:'none',color:'black',fontWeight:'bold'}}><i class="fa-solid fa-star-half-stroke"></i> &nbsp;FeedBack</a></button>
+            <button id="btn"><a href='/' style={{textDecoration:'none',color:'black',fontWeight:'bold'}}><i class="fa-solid fa-star-half-stroke"></i> &nbsp;FeedBack</a></button>
             </li>
             
             <li>

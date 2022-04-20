@@ -32,10 +32,10 @@ retrievefeedback(){
 render(){
     return (
       <div className='container-fluid'>
-        <h2 style={{color:'darkblue',fontWeight:'bold',height:'50px',textAlign:'center',marginTop:'15px'}}>STUDENT FEEDBACK</h2>
+        <h2 style={{color:'rgb(6, 70, 98)',fontWeight:'bold',height:'40px',textAlign:'center',marginTop:'15px',backgroundColor:'rgb(241, 222, 187)'}}>STUDENT FEEDBACK</h2>
 
-        <div className="col-md-4 mt-4 mx-auto" style={{float:'left',position:'relative',paddingRight:'40px',paddingBottom:'20px',paddingTop:'20px', paddingLeft:'40px'}}>
-        <h1 className="h3 mb-3 font-weight-normal" style={{fontWeight:'bold'}}>Course</h1>
+        <div className="col-md-4 mt-4 mx-auto" style={{float:'left',position:'relative',paddingRight:'40px',paddingBottom:'20px',paddingTop:'0px', paddingLeft:'40px'}}>
+        <h1 className="h3 mb-2" style={{fontWeight:'bold'}}>Course</h1>
           <form className="needs-validation" noValidate>
           
 
@@ -55,8 +55,8 @@ render(){
 
 
 
-     <div className="col-md-4 mt-4 mx-auto" style={{float:'left',position:'relative',paddingRight:'40px',paddingBottom:'20px',paddingTop:'20px', paddingLeft:'40px'}}>
-        <h1 className="h3 mb-3 font-weight-normal" style={{fontWeight:'bold'}}>Module</h1>
+     <div className="col-md-4 mt-4 mx-auto" style={{float:'left',position:'relative',paddingRight:'40px',paddingBottom:'20px',paddingTop:'0px', paddingLeft:'40px'}}>
+        <h1 className="h3 mb-2" style={{fontWeight:'bold'}}>Module</h1>
           <form className="needs-validation" noValidate>
           
 
@@ -75,8 +75,8 @@ render(){
 
 
 
-     <div className="col-md-4 mt-4 mx-auto" style={{float:'left',position:'relative',paddingRight:'40px',paddingBottom:'20px',paddingTop:'20px', paddingLeft:'40px'}}>
-        <h1 className="h3 mb-3 font-weight-normal" style={{fontWeight:'bold'}}>Institute</h1>
+     <div className="col-md-4 mt-4 mx-auto" style={{float:'left',position:'relative',paddingRight:'40px',paddingBottom:'20px',paddingTop:'0px', paddingLeft:'40px'}}>
+        <h1 className="h3 mb-2" style={{fontWeight:'bold'}}>Institute</h1>
           <form className="needs-validation" noValidate>
           
 

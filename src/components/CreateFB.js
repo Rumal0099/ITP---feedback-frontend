@@ -79,8 +79,8 @@ export default class CreateFB extends Component {
               onChange={this.handleInputChange}/>
             </div>
 
-            <button className="btn btn-success" type="submit" style={{marginTop:'15px'}} onClick={this.onSubmit}>
-              <i className="far fa-check-squar"></i>
+            <button className="btn btn-warning" type="submit" style={{marginTop:'15px'}} onClick={this.onSubmit}>
+              <i className="far fa-check-square"></i>
               &nbsp; Submit
             </button>
 

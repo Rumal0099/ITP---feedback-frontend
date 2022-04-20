@@ -1,12 +1,31 @@
 import React, {Component} from "react";
+import axios from 'axios';
 
 
 export default class NavBar extends Component {
 
+  filterData(feedback,searchKey){
+
+    const result = feedback.filter((feedback)=>
+    feedback.email.includes(searchKey)
+    
+    )
+  
+    this.setState({feedback:result})
+  }
+
   handleSearchArea =(e) =>{
 
-    console.log(e.currentTarget.value);
-
+    const searchKey = e.currentTarget.value;
+  
+    axios.get(`http://localhost:8000/feedback`).then(res =>{
+      if(res.data.success){
+       
+        this.filterData(res.data.existingFeedback,searchKey)
+  
+       }
+    });
+  
   }
 
   render(){
